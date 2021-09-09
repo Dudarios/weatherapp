@@ -97,24 +97,7 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-function displayCTemp(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML =cTemp;
-  cLink.classList.add("active");
-  fLink.classList.remove("active");
 
-}
-
-function displayFTemp(event) {
-  event.preventDefault();
-  let fTemp = Math.round(cTemp *9/5+32);
-  cLink.classList.remove("active");
-  fLink.classList.add("active");
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = fTemp;
-
-}
 
 function getForecast(coordinates) {
   let apiKey = "5a7acbe76d11ed01350ad9a79a9f8797";
@@ -169,10 +152,5 @@ forecastHTML = forecastHTML + `</div>`;
 let cTemp = null;
 
 
-let fLink = document.querySelector("#flink");
-fLink.addEventListener("click", displayFTemp);
-
-let cLink = document.querySelector("#clink");
-cLink.addEventListener("click", displayCTemp);
 
 search("Washington");
