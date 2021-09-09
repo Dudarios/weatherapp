@@ -125,7 +125,7 @@ function getForecast(coordinates) {
 function formatDay(timestamp){
   let date = new Date(timestamp*1000);
   let day = date.getDay();
-  let days = ["Sund",
+  let days = ["Sun",
   "Mon",
   "Tues",
   "Wed",
