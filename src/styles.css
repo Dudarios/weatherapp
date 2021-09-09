@@ -46,11 +46,10 @@ h1 {
   font-weight: 500;}
 
 .month1 {
-  text-align: left;
-  position: absolute;
-  display: inline;
-  top: 310px;
-  left: 160px;
+  text-align: left;display: inline;
+  position: relative;
+  bottom: 15px;
+  left: 55px;
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -59,9 +58,9 @@ h1 {
 
 .times {
   text-align: left;
-  position: absolute;
-  top: 310px;
-  right: 845px;
+  position: relative;
+  bottom: 15px;
+  left: 55px;
   display: inline;
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
