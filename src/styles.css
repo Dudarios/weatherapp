@@ -1,0 +1,198 @@
+.container {
+  margin-top: 60px;
+  padding: 5px 60px 100px 0px;
+  border-style: none;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-bottom: 60px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group {
+  padding-left: 60px;
+  padding-top: 0px;
+}
+
+h1 {
+  position: relative;
+  text-align: left;
+  margin-top: 20px;
+  right: 30px;
+  font-size: 100px;
+  color: lightseagreen;
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.emoji {
+  position: relative;
+  max-width: 200%;
+  display: inline;
+  right: 20px;
+  margin-left: 50px;
+  bottom: 30px;
+}
+
+
+.description{text-transform: capitalize;
+  text-align: left;
+  position: absolute;
+  top: 350px;
+  left: 160px;
+  display: inline;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;}
+
+.month1 {
+  text-align: left;
+  position: absolute;
+  display: inline;
+  top: 310px;
+  left: 160px;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+
+}
+
+.times {
+  text-align: left;
+  position: absolute;
+  top: 310px;
+  right: 845px;
+  display: inline;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.active {
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+  right: 1px;
+  display: inline;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.active:hover{text-decoration: none;
+cursor: default;
+color: black;}
+
+a{ text-align: center;
+  position: relative;
+  bottom: 35px;
+  right: 1px;
+  display: inline;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-decoration: none}
+
+.temperature {
+  position: relative;
+  top: 0px;
+  bottom: 20px;
+  right: 1px;
+  display: inline;
+  font-size: 70px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.row {
+  margin-top: 80px;
+  padding-left: 60px;
+}
+
+
+.card-title {
+  position: relative;
+  display: inline;
+  margin-right: 10px;
+}
+
+.card-text {
+  font-size: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h6 {
+  font-size: 20px;
+  position: relative;
+  display: inline;
+  margin: 0 auto;
+  color: green;
+}
+
+hr {
+  width: calc(100% + 60px);
+  margin-top: 60px;
+  border-top: 1px solid black;
+  display: block;
+  text-align: center;
+}
+
+.graph {
+  font-size: 400px;
+  text-align: center;
+}
+
+.humi {
+  color: lightseagreen;
+
+}
+
+li{position: relative;
+  display: block;
+  top: 60px;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 60px;
+  font-family: 'Quicksand', sans-serif;}
+
+.wind{
+  color: lightseagreen;}
+
+.precipi {
+  position: relative;
+  display: block;
+  top: 60px;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 60px;
+  font-family: 'Quicksand', sans-serif;}
+
+.link {
+  position: relative;
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.git {
+  position: relative;
+  top: 0px;
+  display: inline;
+  margin-left: 5px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.hub{margin-left: 1050px;}
+
+.tempMin{font-weight: lighter; }
+
+.imgForecast{ margin-left: 30px;
+  height: 80px;
+  width: 80px;
+}
